@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="css/xy.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+</head>
+<body>
+    <div class="head">
+        <header>
+            <div class="head-socials">
+                <div>
+                    <span class="fab fa-facebook"></span>
+                </div>
+                <div>
+                    <span class="fa fa-user"></span>
+                </div>
+                <div>
+                    <span class="fab fa-instagram"></span>
+                </div>
+            </div>
+            <div class="head-text">
+                <p>HNG 11</p>
+            </div>
+            <div class="headSearchBtn">
+                <input type="text">
+                <button class="searchBar"><span class="fa fa-search"></span></button>
+            </div>
+        </header>
+
+        <div class="banner">
+            <div class="banner-texts">
+                <p>Hello User, <span class="fa fa-user-circle"></span></p>
+                <p style="font-size: 1.5em;">Scroll down to check my new blog post, hope it turns out exciting. <span class="fa fa-arrow-right"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <section class="myArticles">
+        <div class="aboutMe">
+            <p style="font-size: 2em; font-weight: bold">About Me <span class="fas fa-user-tie"></span></p>
+            <img src="images/profilepic.jpg" alt="My Profile Picture" data-testid="slackProfilePicture">
+            <p>Hello, my Slack Name is <span style="font-size: 1.3em; font-weight: bold;" data-testid="slackDisplayName">Maurice Charles</span>. I am an Intern at HNG 11 interning as a FrontEnd Software Engineer. Get to know more about us via:</p>
+
+            <div style="display: flex; flex-direction: column;">
+                <span>1. <a href="http://hng.tech/learn" data-testid="hngLink">hng.tech/learn</a></span>
+                <span>2. <a href="http://keyword.dog/" data-testid="keywordLink">keyword.dog</a></span>
+                <span>3. <a href="http://scrapeanyweb.site/" data-testid="scrapeanywebLink">scrapeanyweb.site</a></span>
+            </div>
+
+            <p style="font-weight: bold;" data-testid="slackEmail">Email <span class="fas fa-mail"></span>: krizzymax12@gmail.com</p>
+            <div style="margin-top: 2em; font-weight: bold; color: rgb(60, 75, 68); font-style: italic;">
+                <span data-testid="currentTimeUTC" id="day-of-week"></span>
+                <span data-testid="currentDay" id="utc-time"></span>
+            </div>
+        </div>
+
+        <div class="myGoals">
+            <p style="font-size: 1.8em; font-weight: bold">My Goals For 2-Years in Tech</p>
+            <div class="goals">
+                <div>
+                    <span class="fas fa-info-circle fa-2x"></span>
+                    <h3>1. Learning New Technolgies</h3>
+                    <p>Exploring emerging technologies like blockchain, AI/ML or quantum</p>
+                </div>
+                <div>
+                    <span class="fas fa-graduation-cap fa-2x"></span>
+                    <h3>Career Advancement</h3>
+                    <h5>2. Becoming a specialist in domains such as cybersecurity, data science etc.</h5>
+                </div>
+                <div>
+                    <span class="fas fa-clipboard-check fa-2x"></span>
+                    <h3>3. Professional Development</h3>
+                    <p>Earning certifications in areas like AWS, Google Cloud, Kubernates or other specialized fields</p>
+                </div>
+                <div>
+                    <span class="fas fa-file fa-2x"></span>
+                    <h3>4. Building Projects and Portfolios</h3>
+                    <p>Project Building and Portfolio and showcase skills to potential clients</p>
+                </div>
+                <div>
+                    <span class="fas fa-wallet fa-2x"></span>
+                    <h3>Financial Goals</h3>
+                    <p>Salary increase through job changes, promotions or side Projects</p>
+                </div>
+            </div>
+            <!-- <p>Kindly follow via:</p>
+            <span class="fab fa-facebook"></span>
+            <span class="fab fa-twitter"></span>
+            <span class="fab fa-youtube"></span>
+            <span class="fab fa-instagram"></span> -->
+        </div>
+    </section>
+<hr>
+
+    <footer>
+        <p style="display: flex; justify-content: center; align-items: center; font-size: smaller;">&copy; All Rights Reserved, 2024</p>
+    </footer>
+
+<script src="js/xy.js"></script>    
+</body>
+</html>
+
